@@ -1,0 +1,27 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "node server for hypertube",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon video/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^7.0.1",
+    "is-number": "^7.0.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.0",
+    "opensubtitles-api": "^5.0.1",
+    "pump": "^3.0.0",
+    "srt-to-vtt": "^1.1.3",
+    "torrent-stream": "^1.1.0"
+  }
+}
